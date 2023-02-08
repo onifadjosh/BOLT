@@ -512,3 +512,8 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bg-\[\#E6FF00\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 255 0 / var(--tw-bg-opacity));
+}
