@@ -10,121 +10,142 @@
 
 </head>
 <body>
-    <header class="bg-[#E6FF00]">
-        <nav>
-
-        </nav>
-
-        <div>
-            <div>
+    <header class="bg-[#E6FF00] md:px-[64px] relative">
+        <nav class="flex justify-between z-20 relative">
+            <div class="basis-[10%]">
                 <img src="dist/images/Vector.svg" alt="" srcset="">
+                
+            </div>
+
+            <div class="flex font-semibold text-[16px] leading-[54px] basis-[10%] gap-[20px] ">
                 <a href="http://">Security</a>
                 <a href="http://">Shop</a>
             </div>
-
-            <div>
+            
+            <div class="flex font-semibold text-[16px]  basis-[80%] justify-end gap-[20px] items-center">
                 <a href="http://">Login</a>
-                <a href="http://">Contact Sales</a>
+                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounde">Contact Sales</a>
             </div>
 
-        </div>
+            <div class="hamburger lg:hidden md:block">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </nav>
 
-        <div>
-            <div>
-                <h1>
+        <div class="flex justify-between items-center">
+            <div class="basis-[50%]">
+                <h1 class="font-bold text-[88px] leading-[83px] mb-[20px]">
                     Lightning-fast <br>
                     checkout
                 </h1>
 
-                <p>
+                <p class="font-medium text-[20px] leading-[24px] mb-[33px]">
                     Shop faster than you can say &#39;one click’.
                 </p>
 
-                <a href="http://">Create your account</a>
+                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounded-[8px]">Create your account</a>
             </div>
 
-            <div>
-                <img src="dist/images/header.png" alt="" srcset="">
+            <div class="basis-[50%] z-20">
+                <img src="dist/images/header.png" alt="" srcset="" class="max-w-[90%]">
             </div>
         </div>
         
-        <img src="dist/images/bt1.svg" alt="" srcset="">
-        <img src="dist/images/bt2.svg" alt="" srcset="">
+        <img src="dist/images/bt01.svg" alt="" srcset="" class="absolute right-0 top-0 z-10 w-[75%]">
+        <img src="dist/images/bt2.svg" alt="" srcset="" class="hidden">
     </header>
 
     <!--second section -->
-    <section>
-        <div>
-            <h1>It’s shockingly simple</h1>
+    <section class="z-20 relative bg-gradient-to-b from-[#11190C] via-[#11190C] to-[#4F4F41] text-[#FFFFFF] ">
+        <div class="text-center py-[142px]">
+            <h1 class="font-bold text-[61px] leading-[67px]">It’s shockingly simple</h1>
 
-            <p>
+            <p class="font-medium text-[18px] leading-[21.6px] text-center">
                 Forget filling out frustrating forms or searching for your wallet. With Bolt, all it <br>
                 takes is one click to check out on all your favorite sites.
             </p>
         </div>
 
-        <div>
+        <div class="flex flex-col justify-center gap-[157px]">
 
-            <div>
+            <div class="flex justify-center gap-[157px]">
                 <div>
-                    <img src="dist/images/frm1.png" alt="" srcset="">
+                    <div class="relative">
+                        <div class="bg-[#7C7A6A] w-[380px] h-[417px] rounded-[12px]">
+                          
+                        </div>
+                        <img src="dist/images/frm1.png" alt="" srcset="" class="absolute bottom-0 w-[120%] max-w-[120%] h-[115%] left-[-20%]">
+                    </div>
+                    <div>
+                        <h1>Browse. Click. Buy.</h1>
+    
+                        <p>
+                            Whether you're on a blog, on social, or skimming the <br>
+                            news, Bolt lets you shop where you scroll.
+                        </p>
+                    </div>
                 </div>
-
+    
                 <div>
-                    <h1>Browse. Click. Buy.</h1>
-
-                    <p>
-                        Whether you're on a blog, on social, or skimming the <br>
-                        news, Bolt lets you shop where you scroll.
-                    </p>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <img src="dist/images/frm2.png" alt="" srcset="">
-                </div>
-
-                <div>
-                    <h1>Password hint: Forget it</h1>
-
-                    <p>
-                        It’s time to retire your password generator. Log in <br>
-                        through texts sent to your phone or authenticate <br>
-                        your device and never log in again.u scroll.
-                    </p>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <img src="dist/images/frm3.png" alt="" srcset="">
-                </div>
-
-                <div>
-                    <h1>Always safe. Super secure.</h1>
-
-                    <p>
-                        We take privacy seriously. You can rest easy <br>
-                        knowing your sensitive information is encrypted and <br>
-                        stored securely.
-                    </p>
+                    <div class="relative">
+                        <div class="bg-[#FF7D7D] w-[380px] h-[417px] rounded-[12px]">
+                          
+                        </div>
+                        <img src="dist/images/frm2.png" alt="" srcset="" class="absolute bottom-0 w-[125%] max-w-[125%] h-[120%] left-[-9%]">
+                    </div>
+    
+                    <div>
+                        <h1>Password hint: Forget it</h1>
+    
+                        <p>
+                            It’s time to retire your password generator. Log in <br>
+                            through texts sent to your phone or authenticate <br>
+                            your device and never log in again.u scroll.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div>
+            <div class="flex justify-center gap-[157px]">
                 <div>
-                    <img src="dist/images/frm4.png" alt="" srcset="">
+                    <div class="relative">
+                        <div class="bg-[#7DDB8B] w-[380px] h-[417px] rounded-[12px]">
+                          
+                        </div>
+                        <img src="dist/images/frm3.png" alt="" srcset="" class="absolute bottom-0 w-[120%] max-w-[120%] h-[120%] left-[-20%]">
+                    </div>
+    
+                    <div>
+                        <h1>Always safe. Super secure.</h1>
+    
+                        <p>
+                            We take privacy seriously. You can rest easy <br>
+                            knowing your sensitive information is encrypted and <br>
+                            stored securely.
+                        </p>
+                    </div>
                 </div>
-
+    
                 <div>
-                    <h1>Track your orders easier</h1>
-
-                    <p>
-                        Get real-time status updates, see your order <br>
-                        history, and find inspiration for future purchases.
-                    </p>
-                </div>
+                    <div class="relative">
+                        <div class="bg-[#B688FF] w-[380px] h-[417px] rounded-[12px]">
+                          
+                        </div>
+                        <img src="dist/images/frm4.png" alt="" srcset="" class="absolute bottom-0 w-[125%] max-w-[125%] h-[110%] left-[-10%]">
+                    </div>
+    
+                    <div>
+                        <h1>Track your orders easier</h1>
+    
+                        <p>
+                            Get real-time status updates, see your order <br>
+                            history, and find inspiration for future purchases.
+                        </p>
+                    </div>
+                </div> 
             </div>
         </div>
 
