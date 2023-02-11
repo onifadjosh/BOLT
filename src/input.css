@@ -13,3 +13,7 @@
     width: 30%;
   }
   
+
+  .splide__pagination{
+    display: none !important ;
+  }
