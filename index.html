@@ -26,7 +26,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
             
             <div class="flex font-semibold text-[16px]  basis-[80%] justify-end gap-[20px] items-center">
                 <a href="http://">Login</a>
-                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounde">Contact Sales</a>
+                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] text-[16px] font-semibold rounded-[24px]">Contact Sales</a>
             </div>
 
             <div class="hamburger lg:hidden md:block">
@@ -48,7 +48,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
                     Shop faster than you can say &#39;one click’.
                 </p>
 
-                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounded-[8px]">Create your account</a>
+                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounded-[24px]">Create your account</a>
             </div>
 
             <div class="basis-[50%] z-20">
@@ -152,7 +152,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
         </div>
 
         <div class="flex justify-center pt-[100px] pb-[142px]">
-            <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[] rounded-[8px] text-center">Create your account</a>
+            <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[] text-center rounded-[24px]">Create your account</a>
         </div>
     </section>
 
@@ -281,15 +281,15 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
                 </div>
     
                 <!-- Add the progress bar element -->
-                <div class="my-carousel-progress mt-[50px]">
-                    <div class="my-carousel-progress-bar"></div>
+                <div id="progress" class="my-carousel-progress mt-[50px]">
+                    <div  class="my-carousel-progress-bar"></div>
                 </div>
     
             </div>
         </div>
 
         <div class="flex justify-center pt-[50px] relative z-[15]">
-            <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[#FFFFFF] rounded-[8px] text-center">Explore the Bolt network</a>
+            <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[#FFFFFF] rounded-[24px] text-center">Explore the Bolt network</a>
         </div>
 
 
@@ -313,7 +313,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
                 </h1>
     
                 <div class="flex justify-center pt-[40px] pb-[125px]">
-                    <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[] rounded-[8px] text-center">Create your account</a>
+                    <a href="http://" class="px-[23px] py-[14px] bg-[#E6FF00] text-[] rounded-[24px] text-center">Create your account</a>
                 </div>
             </div>
         </div>
@@ -333,7 +333,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css
                     With Bolt, you convert 47% more shoppers into buyers compared to guest checkout.
                 <p>
 
-                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounded-[8px] text-center">Bolt for Merchants</a>
+                <a href="http://" class="px-[23px] py-[14px] bg-[#11190C] text-[#E6FF00] rounded-[24px] text-center">Bolt for Merchants</a>
             </div>
 
             <div class="flex justify-between py-[33px] font-medium text-[12px]">
@@ -377,6 +377,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js
       height : '6rem',
     },
   },
+
+  pagination: {
+    clickable: true,
+  },
 } );
 
 splide.mount();
@@ -389,7 +393,8 @@ splide.on( 'mounted move', function () {
   var end  = splide.Components.Controller.getEnd() + 1;
   var rate = Math.min( ( splide.index + 1 ) / end, 1 );
   bar.style.width = String( 100 * rate ) + '%';
-} );
+} )
+
 splide.mount();
 
 </script>
