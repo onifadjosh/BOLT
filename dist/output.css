@@ -549,6 +549,10 @@ video {
   right: 40%;
 }
 
+.top-\[-5\%\] {
+  top: -5%;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -581,8 +585,8 @@ video {
   margin-top: 50px;
 }
 
-.mt-\[-220px\] {
-  margin-top: -220px;
+.mt-\[-235px\] {
+  margin-top: -235px;
 }
 
 .flex {
@@ -661,6 +665,11 @@ video {
   flex-basis: 50%;
 }
 
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -729,12 +738,12 @@ video {
   border-radius: 12px;
 }
 
-.rounded-\[24px\] {
-  border-radius: 24px;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
 }
 
 .border-4 {
@@ -744,6 +753,11 @@ video {
 .border-\[\#11190C\] {
   --tw-border-opacity: 1;
   border-color: rgb(17 25 12 / var(--tw-border-opacity));
+}
+
+.border-\[\#E6FF00\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(230 255 0 / var(--tw-border-opacity));
 }
 
 .bg-\[\#E6FF00\] {
@@ -943,6 +957,10 @@ video {
   font-size: 15.86px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[152px\] {
   font-size: 152px;
 }
@@ -1046,7 +1064,19 @@ video {
   display: none !important ;
 }
 
-.btn{
+.splide__arrow{
+  background: transparent !important;
+  display: contents !important
+}
+
+.splide__arrows{
+  display: flex !important;
+  position: absolute;
+  right: 15%;
+  top: -15%;
+}
+
+.btn, .btn1{
   transition: all .3s;
   position: relative;
   overflow: hidden;
@@ -1086,6 +1116,40 @@ video {
 }
 
 .btn:hover::before{
+  width: 100%;
+}
+
+.btn1::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#E6FF00 ;
+  border-radius: 24px;
+  z-index: -2;
+}
+
+.btn1::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color:#11190C ;
+  transition: all .3s;
+  border-radius: 28px;
+  z-index: -1;
+}
+
+.btn1:hover{
+  color: #E6FF00;
+  font-weight: 600;
+}
+
+.btn1:hover::before{
   width: 100%;
 }
 
