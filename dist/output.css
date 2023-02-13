@@ -573,6 +573,10 @@ video {
   margin-bottom: 33px;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .mt-\[50px\] {
   margin-top: 50px;
 }
@@ -589,6 +593,10 @@ video {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-\[500px\] {
   height: 500px;
 }
@@ -599,10 +607,6 @@ video {
 
 .h-\[110\%\] {
   height: 110%;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-\[75\%\] {
@@ -685,6 +689,10 @@ video {
   gap: 20px;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .gap-\[157px\] {
   gap: 157px;
 }
@@ -713,21 +721,39 @@ video {
   overflow-y: hidden;
 }
 
-.rounded-\[24px\] {
-  border-radius: 24px;
+.rounded-\[28px\] {
+  border-radius: 28px;
 }
 
 .rounded-\[12px\] {
   border-radius: 12px;
 }
 
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-\[\#11190C\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(17 25 12 / var(--tw-border-opacity));
 }
 
 .bg-\[\#E6FF00\] {
   --tw-bg-opacity: 1;
   background-color: rgb(230 255 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#DAEF15\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 239 21 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#11190C\] {
@@ -764,11 +790,6 @@ video {
   background-color: transparent;
 }
 
-.bg-\[\#DAEF15\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(218 239 21 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -803,9 +824,29 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-\[64px\] {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .px-\[23px\] {
   padding-left: 23px;
   padding-right: 23px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .py-\[14px\] {
@@ -838,24 +879,12 @@ video {
   padding-bottom: 33px;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.pt-\[38\.89px\] {
+  padding-top: 38.89px;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.px-\[64px\] {
-  padding-left: 64px;
-  padding-right: 64px;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.pt-\[16px\] {
+  padding-top: 16px;
 }
 
 .pt-\[100px\] {
@@ -902,12 +931,8 @@ video {
   font-size: 20px;
 }
 
-.text-\[61px\] {
-  font-size: 61px;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .text-\[30\.36px\] {
@@ -932,14 +957,6 @@ video {
 
 .text-\[12px\] {
   font-size: 12px;
-}
-
-.text-\[11px\] {
-  font-size: 11px;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
 }
 
 .font-semibold {
@@ -994,18 +1011,24 @@ video {
   line-height: 48px;
 }
 
+.text-\[\#11190C\] {
+  --tw-text-opacity: 1;
+  color: rgb(17 25 12 / var(--tw-text-opacity));
+}
+
 .text-\[\#E6FF00\] {
   --tw-text-opacity: 1;
   color: rgb(230 255 0 / var(--tw-text-opacity));
 }
 
+.text-\[\#444638\] {
+  --tw-text-opacity: 1;
+  color: rgb(68 70 56 / var(--tw-text-opacity));
+}
+
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .my-carousel-progress {
@@ -1023,18 +1046,47 @@ video {
   display: none !important ;
 }
 
-/* .category{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  } */
-
-.active\:bg-\[\]:active {
-  background-color: ;
+.btn{
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.active\:bg-\[\#DAEF15\]:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(218 239 21 / var(--tw-bg-opacity));
+.btn::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#11190C ;
+  color: #fff;
+  border-radius: 20px;
+  z-index: -2;
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color:#E6FF00 ;
+  transition: all .3s;
+  border-radius: 28px;
+  color: #11190C;
+  z-index: -1;
+}
+
+.btn:hover{
+  color: #11190C;
+  font-weight: 600;
+}
+
+.btn:hover::before{
+  width: 100%;
 }
 
 .active\:bg-\[\#E6FF00\]:active {
