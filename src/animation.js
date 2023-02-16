@@ -9,7 +9,7 @@ gsap.to("#ani1", {
         
     },
     x: 400,
-    duration:0.5,
+    duration:1,
 })
 
 gsap.to("#ani2",{
@@ -18,7 +18,7 @@ gsap.to("#ani2",{
         scrub:0.5,
     },
     x:-400,
-    duration:0.5,
+    duration:1,
 })
 
 gsap.to("#ani3",{
@@ -27,6 +27,6 @@ gsap.to("#ani3",{
         scrub:0.5,
     },
     x:400,
-    duration:0.5,
+    duration:1,
 })
 

@@ -13,22 +13,22 @@
 </head>
 <body class="overflow-x-hidden ">
     <header class="bg-[#E6FF00]  relative">
-        <div class="py-2 bg-[#DAEF15] relative z-20 px-[64px] text-[#11190C]">
-            <a href="http://" class="text-[16px] font-semibold h-full px-4 text-center cursor-pointer">For Merchants</a>
-            <a href="http://" class="text-[16px] font-semibold h-full px-4 active:bg-[#E6FF00] cursor-pointer">For Shoppers</a>
+        <div class="py-2 bg-[#DAEF15] relative z-20  md:px-[64px] text-[#11190C]">
+            <a href="http://" class="text-[12px] md:text-[16px] font-semibold h-full px-4 text-center cursor-pointer">For Merchants</a>
+            <a href="http://" class="text-[12px] md:text-[16px] font-semibold h-full px-4 active:bg-[#E6FF00] cursor-pointer">For Shoppers</a>
         </div>
-        <nav class="flex justify-between z-50  md:px-[64px] py-6 fixed w-full" id="headnav">
-            <div class="basis-[10%]">
+        <nav class="flex justify-between z-50 px-5 md:px-[64px] py-6 relative md:fixed w-full" id="headnav">
+            <div class="md:basis-[10%] basis-[50%]">
                 <img src="dist/images/Vector.svg" alt="" srcset="">
                 
             </div>
 
-            <div class="md:hidden  lg:flex font-semibold text-[16px] leading-[54px] basis-[10%] gap-[20px]  text-[#11190C]">
+            <div class="hidden  lg:flex font-semibold text-[16px] leading-[54px] basis-[10%] gap-[20px]  text-[#11190C]">
                 <a href="http://" class="cursor-pointer">Security</a>
                 <a href="http://" class="cursor-pointer">Shop</a>
             </div>
             
-            <div class="md:hidden  lg:flex font-semibold text-[16px]  basis-[80%] justify-end gap-[24px] items-center text-[#11190C]">
+            <div class="hidden  lg:flex font-semibold text-[16px]  basis-[80%] justify-end gap-[24px] items-center text-[#11190C]">
                 <a href="http://">Login</a>
                 <a href="http://" class="btn px-[23px] py-[12px] bg-[#11190C] text-[#E6FF00] text-[16px] border-4 border-[#11190C]  font-semibold rounded-[28px]">Contact Sales</a>
             </div>
@@ -41,7 +41,7 @@
             
         </nav>
 
-        <div class="navMenu">
+        <div class="navMenu lg:hidden">
             <div>
                 <img>
             </div>
@@ -66,51 +66,51 @@
             </div>
         </div>
 
-        <div class="flex justify-between items-center lg:px-[64px] relative z-20">
-            <div class="basis-[50%]">
-                <h1 class="font-bold md:text-[56px] lg:text-[88px] lg:leading-[83px] mb-[20px] text-[#2b3028]">
+        <div class="flex flex-col  md:flex-row justify-between items-center xl:px-[64px] px-[20px] md:pt-[50px] xl:pt-0 relative z-20">
+            <div class="md:basis-[60%] xl:basis-[50%] md:pb-6 lg:pb-0 h-[70vh] md:h-fit flex flex-col items-center md:block">
+                <h1 class="font-bold text-center md:text-start text-[48px] md:text-[56px] lg:text-[88px] lg:leading-[83px] mb-[20px] md:text-[#3d4937] text-[#11190C]">
                     Lightning-fast <br>
                     checkout
                 </h1>
 
                 <p class="font-medium text-[20px] leading-[24px] mb-[33px] text-[#444638]">
-                    Shop faster than you can say &#39;one click’.
+                    Shop faster than you <br class="md:hidden block">can say &#39;one click’.
                 </p>
 
-                <a href="http://" class="btn px-[23px] py-[14px] text-[#E6FF00] rounded-[28px] text-[16px] border-4 border-[#11190C] font-semibold cursor-pointer">Create your account</a>
+                <a href="http://" class="btn px-[23px] py-[14px] text-[#E6FF00] rounded-[28px] text-[16px] md:border-4 border-[#11190C] font-semibold cursor-pointer">Create your account</a>
             </div>
 
-            <div class="basis-[50%] z-20">
-                <img src="dist/images/header.png" alt="" srcset="" class="max-w-[90%]">
+            <div class="md:basis-[40%] xl:basis-[50%] z-20">
+                <img src="dist/images/header.png" alt="" srcset="" class="xl:max-w-[90%] md:max-w-[100%]">
             </div>
         </div>
         
         <img src="dist/images/bt01.svg" alt="" srcset="" class="hidden md:block absolute right-0 top-0 z-10 w-[75%]">
-        <img src="dist/images/bt2.svg" alt="" srcset="" class="md:hidden block absolute right-0 top-0 z-10 w-[75%]">
+        <img src="dist/images/bt2.svg" alt="" srcset="" class="md:hidden block absolute right-0 top-0 z-10 w-[100%]">
     </header>
 
     <!--second section -->
     <section class="z-20 relative bg-gradient-to-b from-[#11190C] via-[#11190C] to-[#4F4F41] text-[#FFFFFF] ">
-        <div class="text-center py-[142px]">
-            <h1 class="font-bold text-[80px] md:text-[56px] leading-[67px] mb-[30px]">It’s shockingly simple</h1>
+        <div class="text-center md:py-[142px] py-20 flex flex-col justify-center items-center md:block px-5">
+            <h1 class="font-bold lg:text-[80px] text-[48px] md:text-[56px] leading-[67px] md:mb-[30px]">It’s shockingly simple</h1>
 
-            <p class="font-semibold text-[20px] md:text-[18px] leading-[21.6px] text-center ">
+            <p class="font-semibold lg:text-[20px] text-[16px] md:text-[18px] leading-[21.6px] text-center ">
                 Forget filling out frustrating forms or searching for your wallet. With Bolt, all it <br>
                 takes is one click to check out on all your favorite sites.
             </p>
         </div>
 
-        <div class="flex flex-col justify-center lg:gap-[157px] gap-[50px]  w-full px-[80px]">
+        <div class="flex flex-col justify-center lg:gap-[157px] gap-[50px]  md:w-full xl:px-[160px] md:px-[80px] px-5">
 
-            <div class="flex justify-center lg:gap-[157px] gap-[28px]  w-full">
-                <div class="flex flex-col w-1/2">
+            <div class="flex flex-col md:flex-row justify-center  xl:gap-[157px] md:gap-[28px] gap-[50px] md:w-full ">
+                <div class="flex flex-col md:w-1/2 lg:w-fit items-center md:items-start">
                     <div class="relative">
-                        <div class="bg-[#7C7A6A] lg:w-[450px] md:w-[240px] md:h-[290px] lg:h-[500px] rounded-[12px]">
+                        <div class="bg-[#7C7A6A] xl:w-[450px] lg:w-[400px] w-[280px] h-[300px] md:w-[240px] md:h-[290px] lg:h-[450px] xl:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm1.png" alt="" srcset="" class="absolute bottom-0 lg:w-[120%] md:w-[100%] max-w-[120%]  left-[-20%]">
+                        <img src="dist/images/frm1.png" alt="" srcset="" class="absolute bottom-0 xl:w-[110%] lg:w-[120%] md:w-[100%] max-w-[120%] xl:h-[115%] left-[-20%]">
                     </div>
-                    <div class="pt-[38.89px]">
+                    <div class="pt-[38.89px] text-center md:text-start">
                         <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Browse. Click. Buy.</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
@@ -120,15 +120,15 @@
                     </div>
                 </div>
     
-                <div class="flex flex-col w-1/2">
+                <div class="flex flex-col md:w-1/2 lg:w-fit items-center md:items-start">
                     <div class="relative">
-                        <div class="bg-[#FF7D7D] lg:w-[450px] md:w-[230px] md:h-[290px] lg:h-[500px] rounded-[12px]">
+                        <div class="bg-[#FF7D7D] xl:w-[450px] w-[280px] h-[300px] lg:w-[400px] md:w-[240px] md:h-[290px] lg:h-[450px] xl:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm2.png" alt="" srcset="" class="absolute bottom-0 lg:w-[125%] lg:max-w-[125%] h-[120%] left-[-9%]">
+                        <img src="dist/images/frm2.png" alt="" srcset="" class="absolute bottom-0 xl:w-[115%] lg:w-[125%] max-w-[125%] h-[120%] left-[-9%]">
                     </div>
     
-                    <div class="pt-[38.89px]">
+                    <div class="pt-[38.89px] text-center md:text-start">
                         <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Password hint: <br class="hidden  lg:hidden">Forget it</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
@@ -140,16 +140,16 @@
                 </div>
             </div>
 
-            <div class="flex justify-center lg:gap-[157px] gap-[28px]  w-full">
-                <div class="flex flex-col w-1/2">
+            <div class="flex flex-col md:flex-row items-center justify-center xl:gap-[157px] md:gap-[28px] gap-[50px]  md:w-full ">
+                <div class="flex flex-col md:w-1/2 lg:w-fit items-center md:items-start">
                     <div class="relative">
-                        <div class="bg-[#7DDB8B] lg:w-[450px] md:w-[240px] md:h-[290px] lg:h-[500px] rounded-[12px]">
+                        <div class="bg-[#7DDB8B] xl:w-[450px] w-[280px] h-[300px] lg:w-[400px] md:w-[240px] md:h-[290px] lg:h-[450px] xl:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm3.png" alt="" srcset="" class="absolute bottom-0  lg:w-[120%] max-w-[120%] lg:h-[120%] left-[-20%]">
+                        <img src="dist/images/frm3.png" alt="" srcset="" class="absolute bottom-0 xl:w-[115%] lg:w-[120%] max-w-[120%] h-[120%] md:h-[100%] lg:h-[120%] left-[-20%]">
                     </div>
     
-                    <div class="pt-[38.89px]">
+                    <div class="pt-[38.89px] text-center md:text-start">
                         <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Always safe.<br class="md:block hidden lg:hidden"> Super secure.</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
@@ -160,15 +160,15 @@
                     </div>
                 </div>
     
-                <div class="flex flex-col justify-center w-1/2">
+                <div class="flex flex-col justify-center md:w-1/2 lg:w-fit items-center md:items-start">
                     <div class="relative">
-                        <div class="bg-[#B688FF] lg:w-[450px] md:w-[240px] md:h-[290px]  lg:h-[500px] rounded-[12px]">
+                        <div class="bg-[#B688FF] xl:w-[450px] w-[280px] h-[300px] lg:w-[400px] md:w-[240px] md:h-[290px] lg:h-[450px] xl:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm4.png" alt="" srcset="" class="absolute bottom-0  md:h-[100%] lg:w-[125%] max-w-[125%] lg:h-[110%] left-[-10%]">
+                        <img src="dist/images/frm4.png" alt="" srcset="" class="absolute bottom-0 xl:w-[115%] h-[120%] md:h-[100%] lg:w-[125%] max-w-[125%] lg:h-[110%] left-[-10%]">
                     </div>
     
-                    <div class="pt-[38.89px]">
+                    <div class="pt-[38.89px] text-center md:text-start">
                         <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Track your orders <br class="hidden md:block lg:hidden">easier</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
@@ -180,65 +180,65 @@
             </div>
         </div>
 
-        <div class="flex justify-center pt-[100px] pb-[142px]">
+        <div class="flex justify-center md:pt-[100px] md:pb-[142px] py-10">
             <a href="http://" class="btn1 px-[23px] py-[14px] bg-[#E6FF00] text-[18px] text-[#11190C] border-4 border-[#E6FF00] font-semibold cursor-pointer text-center rounded-[28px]">Create your account</a>
         </div>
     </section>
 
     <!--third section-->
-    <section class="text-[#FFFFFF] bg-[#4F4F41] overflow-x-hidden overflow-y-hidden relative animation">
+    <section class="text-[#FFFFFF]  bg-[#4F4F41] overflow-x-hidden overflow-y-hidden relative animation">
 
         <div class="">
-            <div class="flex gap-[300px] " id="ani1">
+            <div class="flex gap-[300px] md:gap-[200px] " id="ani1">
                 <div class="flex gap-[30px]">
-                    <img src="dist/images/gs1.png" alt="" srcset="" class="max-w-[30%]">
-                    <h1 class="font-semibold text-[152px] leading-[184px]">Home</h1>
+                    <img src="dist/images/gs1.png" alt="" srcset="" class="lg:max-w-[30%] md:max-w-[45%]">
+                    <h1 class="font-semibold lg:text-[152px] md:text-[110px] leading-[184px]">Home</h1>
                 </div>
     
                 <div class="flex gap-[30px]">
-                    <img src="dist/images/gs2.png" alt="" srcset="" class="max-w-[30%]">
-                    <h1 class="font-semibold text-[152px] leading-[184px]">Fashion</h1>
+                    <img src="dist/images/gs2.png" alt="" srcset="" class="lg:max-w-[30%] md:max-w-[45%]">
+                    <h1 class="font-semibold lg:text-[152px] md:text-[110px] leading-[184px]">Fashion</h1>
                 </div>
             </div>
 
-            <div class="flex gap-[300px]" id="ani2">
+            <div class="flex gap-[300px] md:gap-[200px]" id="ani2">
                 <div class="flex gap-[30px]">
-                    <img src="dist/images/gs3.png" alt="" srcset="" class="max-w-[30%]">
-                    <h1 class="font-semibold text-[152px] leading-[184px]">Beauty</h1>
+                    <img src="dist/images/gs3.png" alt="" srcset="" class="lg:max-w-[30%] md:max-w-[45%]">
+                    <h1 class="font-semibold lg:text-[152px] md:text-[110px] leading-[184px]">Beauty</h1>
                 </div>
     
                 <div class="flex gap-[30px]">
-                    <img src="dist/images/gs4.png" alt="" srcset="" class="max-w-[30%]">
-                    <h1 class="font-semibold text-[152px] leading-[184px]">Electronics</h1>
+                    <img src="dist/images/gs4.png" alt="" srcset="" class="lg:max-w-[30%] md:max-w-[35%]">
+                    <h1 class="font-semibold lg:text-[152px] md:text-[110px] leading-[184px]">Electronics</h1>
                 </div>
             </div>
 
             <div id="ani3">
                 <div class="flex gap-[30px] justify-center">
-                    <img src="dist/images/gs5.png" alt="" srcset="" class="max-w-[10%]">
-                    <h1 class="font-semibold text-[152px] leading-[184px]">Sports</h1>
+                    <img src="dist/images/gs5.png" alt="" srcset="" class="lg:max-w-[10%] md:max-w-[20%]">
+                    <h1 class="font-semibold lg:text-[152px] md:text-[110px] leading-[184px]">Sports</h1>
                 </div>
             </div>
 
             
         </div>
 
-        <div class="absolute top-0 right-[40%]">
-            <img src="dist/images/phoneframe.png" alt="" srcset="">
+        <div class="absolute lg:top-0 md:top-[15%] lg:right-[40%] md:right-[30%]">
+            <img src="dist/images/phoneframe.png" alt="" srcset="" class="md:max-w-[75%] lg:max-w-[100%]">
         </div>
     </section>
 
     <!-- forth section -->
-    <section class="bg-gradient-to-b from-[#4F4F41] via-[#11190C] to-[#11190C]  pt-[200px]">
-        <div class="flex justify-between pb-[50px] px-[160px]">
-            <h1 class="font-bold text-[60px] leading-[48px] text-[#FFFFFF]">Shop Bolt brands</h1>
+    <section class="bg-gradient-to-b from-[#4F4F41] via-[#11190C] to-[#11190C]  lg:pt-[200px] pt-[100px]">
+        <div class="flex justify-between pb-6 lg:pb-[50px] px-[40px] xl:px-[160px]">
+            <h1 class="font-bold text-[48px] lg:text-[60px] leading-[48px] text-[#FFFFFF]">Shop Bolt brands</h1>
 
             
         </div>
 
-        <div id="image-carousel" class="splide  px-[160px] bg-transparent relative z-[15]">
+        <div id="image-carousel" class="splide px-[40px] xl:px-[160px] bg-transparent relative z-[15]">
 
-            <div class="splide__arrows relative top-[-5%] ">
+            <div class="splide__arrows relative ">
                 <button class="splide__arrow splide__arrow--prev ">
                     <img src="dist/images/slider.png" alt="" srcset="">
                 </button>
@@ -334,7 +334,7 @@
             </div>
     
             <div>
-                <h1 class="text-[#FFFFFF] text-[62px] font-bold text-center">
+                <h1 class="text-[#FFFFFF] text-[56px] lg:text-[62px] font-bold text-center">
                     Checkout in 
                     <span class="text-[#E6FF00]">
                         (half)
@@ -356,31 +356,32 @@
 
     
     <!-- last section -->
-    <footer class="bg-[#E6FF00] px-[70px]">
+    <footer class="bg-[#E6FF00] px-[20px] lg:px-[70px]">
         <div>
-            <div class="py-[80px] flex justify-center items-center gap-[10px]">
-                <p class="font-medium text-[20px]">
-                    <b>Are you a business?</b>
-                    With Bolt, you convert 47% more shoppers into buyers compared to guest checkout.
-                <p>
+            <div class="py-[80px]  flex md:flex-col xl:flex-row justify-center gap-[21px] items-center md:items-start lg:items-center">
+                <p class="font-bold text-[18px] lg:text-[20px]">Are you a business?</p>
 
-                <a href="http://" class="btn px-[23px] py-[14px] text-[#E6FF00] rounded-[28px] text-[16px] text-center flex justify-center items-center border-[4px] border-[#11190C] font-semibold cursor-pointer">Bolt for Merchants</a>
+                <p class="font-medium text-[18px] lg:text-[20px]">
+                    With Bolt, you convert 47% more shoppers into buyers compared to guest checkout.
+                </p>
+
+                <a href="http://" class="btn px-[23px] py-[14px] text-[#E6FF00] rounded-[38px] text-[14px] text-center border-[4px] border-[#11190C] font-semibold cursor-pointer">Bolt for Merchants</a>
             </div>
 
             <div class="flex justify-between py-[33px] font-medium text-[12px]">
-                <p class="text-[16px]">© 2023 Bolt Financial, Inc.</p>
+                <p class="lg:text-[16px] text-[12px]">© 2023 Bolt Financial, Inc.</p>
 
-                <div class="flex gap-[21px]">
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Legal</a>
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Privacy Policy</a>
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Terms</a>
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Cookie Policy</a>
+                <div class="flex gap-[21px] lg:text-[16px] text-[12px]">
+                    <a href="http://" class="font-semibold cursor-pointer">Legal</a>
+                    <a href="http://" class="font-semibold cursor-pointer">Privacy Policy</a>
+                    <a href="http://" class="font-semibold cursor-pointer">Terms</a>
+                    <a href="http://" class="font-semibold cursor-pointer">Cookie Policy</a>
                 </div>
 
-                <div class="flex gap-[21px]">
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Twitter</a>
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Facebook</a>
-                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">LinkedIn</a>
+                <div class="flex gap-[21px] lg:text-[16px] text-[12px]">
+                    <a href="http://" class=" font-semibold cursor-pointer">Twitter</a>
+                    <a href="http://" class=" font-semibold cursor-pointer">Facebook</a>
+                    <a href="http://" class=" font-semibold cursor-pointer">LinkedIn</a>
                 </div>
             </div>
         </div>
