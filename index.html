@@ -17,18 +17,18 @@
             <a href="http://" class="text-[16px] font-semibold h-full px-4 text-center cursor-pointer">For Merchants</a>
             <a href="http://" class="text-[16px] font-semibold h-full px-4 active:bg-[#E6FF00] cursor-pointer">For Shoppers</a>
         </div>
-        <nav class="flex justify-between z-50  md:px-[64px] py-6 fixed w-full">
+        <nav class="flex justify-between z-50  md:px-[64px] py-6 fixed w-full" id="headnav">
             <div class="basis-[10%]">
                 <img src="dist/images/Vector.svg" alt="" srcset="">
                 
             </div>
 
-            <div class="flex font-semibold text-[16px] leading-[54px] basis-[10%] gap-[20px]  text-[#11190C]">
+            <div class="md:hidden  lg:flex font-semibold text-[16px] leading-[54px] basis-[10%] gap-[20px]  text-[#11190C]">
                 <a href="http://" class="cursor-pointer">Security</a>
                 <a href="http://" class="cursor-pointer">Shop</a>
             </div>
             
-            <div class="flex font-semibold text-[16px]  basis-[80%] justify-end gap-[24px] items-center text-[#11190C]">
+            <div class="md:hidden  lg:flex font-semibold text-[16px]  basis-[80%] justify-end gap-[24px] items-center text-[#11190C]">
                 <a href="http://">Login</a>
                 <a href="http://" class="btn px-[23px] py-[12px] bg-[#11190C] text-[#E6FF00] text-[16px] border-4 border-[#11190C]  font-semibold rounded-[28px]">Contact Sales</a>
             </div>
@@ -41,9 +41,34 @@
             
         </nav>
 
-        <div class="flex justify-between items-center md:px-[64px]">
+        <div class="navMenu">
+            <div>
+                <img>
+            </div>
+
+            <div>
+                <a href="http://" class="cursor-pointer">Security</a>
+                <a href="http://" class="cursor-pointer">Shop</a> 
+                <a href="http://">Login</a>
+
+            </div>
+
+            <div>
+                <a href="http://" class="btn px-[23px] py-[12px] bg-[#FFFFFF] text-[#11190C] text-[16px] border-4 border-[#11190C]  font-semibold rounded-[28px]">Contact Sales</a>
+
+                <div class="flex gap-[21px]">
+                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Twitter</a>
+                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">Facebook</a>
+                    <a href="http://" class="text-[16px] font-semibold cursor-pointer">LinkedIn</a>
+                </div>
+
+                <p class="text-[16px]">© 2023 Bolt Financial, Inc.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center lg:px-[64px] relative z-20">
             <div class="basis-[50%]">
-                <h1 class="font-bold text-[88px] leading-[83px] mb-[20px] text-[#11190C]">
+                <h1 class="font-bold md:text-[56px] lg:text-[88px] lg:leading-[83px] mb-[20px] text-[#2b3028]">
                     Lightning-fast <br>
                     checkout
                 </h1>
@@ -60,94 +85,94 @@
             </div>
         </div>
         
-        <img src="dist/images/bt01.svg" alt="" srcset="" class="absolute right-0 top-0 z-10 w-[75%]">
-        <img src="dist/images/bt2.svg" alt="" srcset="" class="hidden">
+        <img src="dist/images/bt01.svg" alt="" srcset="" class="hidden md:block absolute right-0 top-0 z-10 w-[75%]">
+        <img src="dist/images/bt2.svg" alt="" srcset="" class="md:hidden block absolute right-0 top-0 z-10 w-[75%]">
     </header>
 
     <!--second section -->
     <section class="z-20 relative bg-gradient-to-b from-[#11190C] via-[#11190C] to-[#4F4F41] text-[#FFFFFF] ">
         <div class="text-center py-[142px]">
-            <h1 class="font-bold text-[80px] leading-[67px] mb-[30px]">It’s shockingly simple</h1>
+            <h1 class="font-bold text-[80px] md:text-[56px] leading-[67px] mb-[30px]">It’s shockingly simple</h1>
 
-            <p class="font-semibold text-[20px] leading-[21.6px] text-center ">
+            <p class="font-semibold text-[20px] md:text-[18px] leading-[21.6px] text-center ">
                 Forget filling out frustrating forms or searching for your wallet. With Bolt, all it <br>
                 takes is one click to check out on all your favorite sites.
             </p>
         </div>
 
-        <div class="flex flex-col justify-center gap-[157px]">
+        <div class="flex flex-col justify-center lg:gap-[157px] gap-[50px]  w-full px-[80px]">
 
-            <div class="flex justify-center gap-[157px]">
-                <div>
+            <div class="flex justify-center lg:gap-[157px] gap-[28px]  w-full">
+                <div class="flex flex-col w-1/2">
                     <div class="relative">
-                        <div class="bg-[#7C7A6A] w-[450px] h-[500px] rounded-[12px]">
+                        <div class="bg-[#7C7A6A] lg:w-[450px] md:w-[240px] md:h-[290px] lg:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm1.png" alt="" srcset="" class="absolute bottom-0 w-[120%] max-w-[120%]  left-[-20%]">
+                        <img src="dist/images/frm1.png" alt="" srcset="" class="absolute bottom-0 lg:w-[120%] md:w-[100%] max-w-[120%]  left-[-20%]">
                     </div>
                     <div class="pt-[38.89px]">
-                        <h1 class="font-bold text-[30.36px] leading-[33.39px]">Browse. Click. Buy.</h1>
+                        <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Browse. Click. Buy.</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
-                            Whether you're on a blog, on social, or skimming the <br>
+                            Whether you're on a blog, on social, or skimming the <br class="hidden lg:block">
                             news, Bolt lets you shop where you scroll.
                         </p>
                     </div>
                 </div>
     
-                <div>
+                <div class="flex flex-col w-1/2">
                     <div class="relative">
-                        <div class="bg-[#FF7D7D] w-[450px] h-[500px] rounded-[12px]">
+                        <div class="bg-[#FF7D7D] lg:w-[450px] md:w-[230px] md:h-[290px] lg:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm2.png" alt="" srcset="" class="absolute bottom-0 w-[125%] max-w-[125%] h-[120%] left-[-9%]">
+                        <img src="dist/images/frm2.png" alt="" srcset="" class="absolute bottom-0 lg:w-[125%] lg:max-w-[125%] h-[120%] left-[-9%]">
                     </div>
     
                     <div class="pt-[38.89px]">
-                        <h1 class="font-bold text-[30.36px] leading-[33.39px]">Password hint: Forget it</h1>
+                        <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Password hint: <br class="hidden  lg:hidden">Forget it</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
-                            It’s time to retire your password generator. Log in <br>
-                            through texts sent to your phone or authenticate <br>
+                            It’s time to retire your password generator. Log in <br class="hidden lg:block">
+                            through texts sent to your phone or authenticate <br class="hidden lg:block">
                             your device and never log in again.u scroll.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="flex justify-center gap-[157px]">
-                <div>
+            <div class="flex justify-center lg:gap-[157px] gap-[28px]  w-full">
+                <div class="flex flex-col w-1/2">
                     <div class="relative">
-                        <div class="bg-[#7DDB8B] w-[450px] h-[500px] rounded-[12px]">
+                        <div class="bg-[#7DDB8B] lg:w-[450px] md:w-[240px] md:h-[290px] lg:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm3.png" alt="" srcset="" class="absolute bottom-0 w-[120%] max-w-[120%] h-[120%] left-[-20%]">
+                        <img src="dist/images/frm3.png" alt="" srcset="" class="absolute bottom-0  lg:w-[120%] max-w-[120%] lg:h-[120%] left-[-20%]">
                     </div>
     
                     <div class="pt-[38.89px]">
-                        <h1 class="font-bold text-[30.36px] leading-[33.39px]">Always safe. Super secure.</h1>
+                        <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Always safe.<br class="md:block hidden lg:hidden"> Super secure.</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
-                            We take privacy seriously. You can rest easy <br>
-                            knowing your sensitive information is encrypted and <br>
+                            We take privacy seriously. You can rest easy <br class="hidden lg:block">
+                            knowing your sensitive information is encrypted and <br class="hidden lg:block">
                             stored securely.
                         </p>
                     </div>
                 </div>
     
-                <div>
+                <div class="flex flex-col justify-center w-1/2">
                     <div class="relative">
-                        <div class="bg-[#B688FF] w-[450px] h-[500px] rounded-[12px]">
+                        <div class="bg-[#B688FF] lg:w-[450px] md:w-[240px] md:h-[290px]  lg:h-[500px] rounded-[12px]">
                           
                         </div>
-                        <img src="dist/images/frm4.png" alt="" srcset="" class="absolute bottom-0 w-[125%] max-w-[125%] h-[110%] left-[-10%]">
+                        <img src="dist/images/frm4.png" alt="" srcset="" class="absolute bottom-0  md:h-[100%] lg:w-[125%] max-w-[125%] lg:h-[110%] left-[-10%]">
                     </div>
     
                     <div class="pt-[38.89px]">
-                        <h1 class="font-bold text-[30.36px] leading-[33.39px]">Track your orders easier</h1>
+                        <h1 class="font-bold text-[30.36px] md:text-[26px] leading-[33.39px]">Track your orders <br class="hidden md:block lg:hidden">easier</h1>
     
                         <p class="font-medium text-[15.86px] leading-[20.61px] pt-[16px]">
-                            Get real-time status updates, see your order <br>
+                            Get real-time status updates, see your order <br class="hidden lg:block">
                             history, and find inspiration for future purchases.
                         </p>
                     </div>
