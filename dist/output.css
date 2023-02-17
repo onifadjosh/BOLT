@@ -1002,6 +1002,14 @@ video {
   font-size: 12px;
 }
 
+.text-\[4px\] {
+  font-size: 4px;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
