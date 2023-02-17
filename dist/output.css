@@ -686,8 +686,16 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -1008,6 +1016,10 @@ video {
 
 .text-\[45px\] {
   font-size: 45px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-semibold {
@@ -1363,6 +1375,10 @@ video {
     align-items: flex-start;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -1375,7 +1391,15 @@ video {
     gap: 28px;
   }
 
+  .md\:gap-\[21px\] {
+    gap: 21px;
+  }
+
   .md\:border-4 {
+    border-width: 4px;
+  }
+
+  .md\:border-\[4px\] {
     border-width: 4px;
   }
 
@@ -1599,6 +1623,10 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
   }
 
   .xl\:gap-\[157px\] {
