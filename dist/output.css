@@ -581,6 +581,18 @@ video {
   z-index: 10;
 }
 
+.order-3 {
+  order: 3;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .mt-\[35\%\] {
   margin-top: 35%;
 }
@@ -736,6 +748,14 @@ video {
 
 .gap-\[30px\] {
   gap: 30px;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-\[\] {
+  gap: ;
 }
 
 .overflow-x-hidden {
@@ -952,6 +972,14 @@ video {
   padding-bottom: 125px;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1063,6 +1091,22 @@ video {
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.text-\[14\] {
+  color: 14;
+}
+
+.text-\[px\] {
+  color: px;
 }
 
 .my-carousel-progress {
@@ -1253,6 +1297,18 @@ video {
     left: -9%;
   }
 
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-3 {
+    order: 3;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1362,6 +1418,10 @@ video {
     gap: 21px;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:border-4 {
     border-width: 4px;
   }
@@ -1401,6 +1461,14 @@ video {
     padding-bottom: 142px;
   }
 
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -1423,6 +1491,10 @@ video {
 
   .md\:text-\[110px\] {
     font-size: 110px;
+  }
+
+  .md\:text-\[15\.86px\] {
+    font-size: 15.86px;
   }
 
   .md\:text-\[\#3d4937\] {
