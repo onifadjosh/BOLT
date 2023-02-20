@@ -120,7 +120,7 @@
 .bar{
   display: block;
   width: 25px;
-  height: 5px;
+  height: 3px;
   margin: 5px auto;
   background-color: #11190C;
 }
@@ -157,10 +157,12 @@
     left: 0;
     top: 0;
     height: 100%;
+    background-image: url('dist/images/');
   }
 
   .hamburger.active{
-
+    position: relative;
+    z-index: 70;
   }
 
   
