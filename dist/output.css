@@ -1472,9 +1472,18 @@ video {
     font-size: 36px;
   }
 
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
   .md\:text-\[\#3d4937\] {
     --tw-text-opacity: 1;
     color: rgb(61 73 55 / var(--tw-text-opacity));
+  }
+
+  .md\:text-\[\#11190c\] {
+    --tw-text-opacity: 1;
+    color: rgb(17 25 12 / var(--tw-text-opacity));
   }
 }
 
@@ -1651,5 +1660,9 @@ video {
 
   .xl\:pt-0 {
     padding-top: 0px;
+  }
+
+  .xl\:text-\[20px\] {
+    font-size: 20px;
   }
 }
