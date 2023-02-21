@@ -4,7 +4,7 @@
 
 .my-carousel-progress {
     background: #ccc;
-  }
+}
   
   .my-carousel-progress-bar {
     background: greenyellow;
@@ -20,7 +20,16 @@
 
   .splide__arrow{
     background: transparent !important;
-    display: contents !important
+    display: contents !important;
+   
+    
+  }
+  @media screen and (max-width:500px) {
+    .splide__arrows{
+      right: 0% !important;
+      top: -11% !important;
+  
+    }
   }
   .splide__arrows{
     display: flex !important;

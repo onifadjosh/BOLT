@@ -8,8 +8,8 @@ gsap.to("#ani1", {
         scrub: 0.5,
         
     },
-    x: 400,
-    duration:1,
+    x: 300,
+    duration:2,
 })
 
 gsap.to("#ani2",{
@@ -17,8 +17,8 @@ gsap.to("#ani2",{
         trigger:".animation",
         scrub:0.5,
     },
-    x:-400,
-    duration:1,
+    x:-300,
+    duration:2,
 })
 
 gsap.to("#ani3",{
@@ -26,7 +26,7 @@ gsap.to("#ani3",{
         trigger:".animation",
         scrub:0.5,
     },
-    x:400,
-    duration:1,
+    x:300,
+    duration:2,
 })
 
