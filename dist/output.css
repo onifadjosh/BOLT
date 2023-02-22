@@ -1160,6 +1160,11 @@ video {
   line-height: 48px;
 }
 
+.text-\[\#4a4e47\] {
+  --tw-text-opacity: 1;
+  color: rgb(74 78 71 / var(--tw-text-opacity));
+}
+
 .text-\[\#11190C\] {
   --tw-text-opacity: 1;
   color: rgb(17 25 12 / var(--tw-text-opacity));
@@ -1364,6 +1369,14 @@ video {
     position: relative;
     z-index: 70;
   }
+}
+
+.animatex.active{
+  display: none;
+}
+
+.animatexx.active{
+  display: block;
 }
 
 @media screen and (max-width:1024px) {

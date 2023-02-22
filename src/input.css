@@ -184,6 +184,13 @@
   
 }
 
+.animatex.active{
+  display: none;
+}
+.animatexx.active{
+  display: block;
+}
+
 @media screen and (max-width:1024px) {
   .splide__arrows{
     display: flex !important;
