@@ -30,10 +30,13 @@ gsap.to("#ani3",{
     duration:2,
 })
 
-gsap.to( ,{
+gsap.to( ".ani4",{
     scrollTrigger:{
-        trigger:".animation",
-        
-    }
+        trigger:"#ani3",
+
+    },
+    scale:1.5,
+    x:-1000,
+    duration:2,
 })
 

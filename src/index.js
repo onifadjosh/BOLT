@@ -1,9 +1,10 @@
 const navMenu = document.querySelector('.navMenu');
 const Hamburger = document.querySelector('.hamburger');
-
+const navBar = document.querySelector('.navbar')
 Hamburger.addEventListener('click', ()=>{
     Hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    navBar.classList.toggle('active');
 });
 
 window.onscroll = function(){stickNav()};
