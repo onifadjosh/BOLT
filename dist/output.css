@@ -1084,6 +1084,70 @@ video {
   text-align: start;
 }
 
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[\'\'\] {
+  font-family: '';
+}
+
+.font-\[\'Roboto\'\] {
+  font-family: 'Roboto';
+}
+
+.font-\[\'inter\'\] {
+  font-family: 'inter';
+}
+
+.font-\[\'nter\'\] {
+  font-family: 'nter';
+}
+
+.font-\[\'Inter\'\] {
+  font-family: 'Inter';
+}
+
+.font-\[\'In\'\] {
+  font-family: 'In';
+}
+
+.font-\[\'I\'\] {
+  font-family: 'I';
+}
+
+.font-\[I\] {
+  font-family: I;
+}
+
+.font-\[In\] {
+  font-family: In;
+}
+
+.font-\[\'Robo\'\] {
+  font-family: 'Robo';
+}
+
+.font-\[\'R\'\] {
+  font-family: 'R';
+}
+
+.font-\[\"\"\] {
+  font-family: "";
+}
+
+.font-\[\"Roboto\"\] {
+  font-family: "Roboto";
+}
+
+.font-\[\'Robot\'\] {
+  font-family: 'Robot';
+}
+
+.font-\[Robo\] {
+  font-family: Robo;
+}
+
 .text-\[12px\] {
   font-size: 12px;
 }
