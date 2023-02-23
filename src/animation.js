@@ -30,13 +30,22 @@ gsap.to("#ani3",{
     duration:2,
 })
 
-gsap.to( ".ani4",{
+
+var tl = gsap.timeline({
+    delay:1,
     scrollTrigger:{
         trigger:"#ani3",
 
     },
-    scale:1.5,
-    x:-1000,
-    duration:2,
+})
+
+
+tl.to( ".ani4",{
+    scale:1.1,
+    duration:1,
+})
+tl.to(".ani4",{
+    x:-2000,
+    duration:1,
 })
 
