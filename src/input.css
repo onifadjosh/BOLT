@@ -40,7 +40,7 @@
   }
 
 
-  
+  /* hover effect on buttons */
 .btn, .btn1{
   transition: all .3s;
   position: relative;
@@ -125,7 +125,7 @@
   background-color: #E6FF00;
 }
 
-
+/* hamburger menu and effect */
 .bar{
   display: block;
   width: 25px;
@@ -173,7 +173,6 @@
     left: 0;
     top: 0;
     height: 100%;
-    background-image: url('dist/images/');
   }
 
   .hamburger.active{

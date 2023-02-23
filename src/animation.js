@@ -1,6 +1,6 @@
 // gsap.registerPlugin(ScrollTrigger);
 
-
+// scroll trigger and animation effect using greensock (gsap)
 
 gsap.to("#ani1", {
     scrollTrigger:{
@@ -30,7 +30,7 @@ gsap.to("#ani3",{
     duration:2,
 })
 
-
+// timeline effect using GSAP
 var tl = gsap.timeline({
     delay:1,
     scrollTrigger:{

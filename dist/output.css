@@ -665,8 +665,8 @@ video {
   order: 2;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-9 {
+  margin-bottom: 2.25rem;
 }
 
 .mb-\[35px\] {
@@ -691,10 +691,6 @@ video {
 
 .mt-\[-190px\] {
   margin-top: -190px;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
 }
 
 .block {
@@ -1084,68 +1080,12 @@ video {
   text-align: start;
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
-.font-\[\'\'\] {
-  font-family: '';
-}
-
-.font-\[\'Roboto\'\] {
-  font-family: 'Roboto';
-}
-
-.font-\[\'inter\'\] {
-  font-family: 'inter';
-}
-
-.font-\[\'nter\'\] {
-  font-family: 'nter';
-}
-
 .font-\[\'Inter\'\] {
   font-family: 'Inter';
 }
 
-.font-\[\'In\'\] {
-  font-family: 'In';
-}
-
-.font-\[\'I\'\] {
-  font-family: 'I';
-}
-
-.font-\[I\] {
-  font-family: I;
-}
-
-.font-\[In\] {
-  font-family: In;
-}
-
-.font-\[\'Robo\'\] {
-  font-family: 'Robo';
-}
-
-.font-\[\'R\'\] {
-  font-family: 'R';
-}
-
-.font-\[\"\"\] {
-  font-family: "";
-}
-
-.font-\[\"Roboto\"\] {
-  font-family: "Roboto";
-}
-
-.font-\[\'Robot\'\] {
-  font-family: 'Robot';
-}
-
-.font-\[Robo\] {
-  font-family: Robo;
+.font-\[\'Roboto\'\] {
+  font-family: 'Roboto';
 }
 
 .text-\[12px\] {
@@ -1442,7 +1382,6 @@ video {
     left: 0;
     top: 0;
     height: 100%;
-    background-image: url('dist/images/');
   }
 
   .hamburger.active{

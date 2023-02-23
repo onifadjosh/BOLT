@@ -7,6 +7,8 @@ Hamburger.addEventListener('click', ()=>{
     navBar.classList.toggle('active');
 });
 
+
+// on scroll stivky nav
 window.onscroll = function(){stickNav()};
 
 var header = document.querySelector('#headnav');
