@@ -213,6 +213,6 @@
 }
 @media screen and (max-width:500px) {
   .navMenu{
-    gap: 20px;
+    gap: 30px;
   }
 }
